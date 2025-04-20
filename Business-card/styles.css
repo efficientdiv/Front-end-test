@@ -1,0 +1,38 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #778DA9;
+    color: #E0E1DD;
+    border-radius: 10px;
+    box-shadow: 5px 5px #1B263B;
+    animation: coco;
+    animation-duration: 5s;
+        
+}
+
+.card:hover{
+    opacity: 90%;
+}
+
+@keyframes coco {
+    from {border-radius: 20px;}
+    to {border-radius: 30px;}
+}
